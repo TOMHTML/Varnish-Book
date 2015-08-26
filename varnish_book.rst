@@ -6135,3 +6135,38 @@ VWS
       To learn more about regular-expressions, we recommend you the book Mastering Regular-Expressions by Jeffrey E. F. Friedl.
       The PCRE manual page ``man pcre`` is also a valuable resource, specially ``man pcresyntax`` and ``man pcrepattern``.
 
+Appendix F: VMOD Development
+============================
+
+- VMOD basics
+
+ _______________
+< Hello, World! >
+ ---------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+.. container:: handout
+
+   This appendix explains the concepts you should know to develop your own VMODs.
+   The appendix takes you through the simplest VMOD possible: the `Hello, World` VMOD.
+
+Hello World
+-----------
+
+- TODO
+
+.. container:: handout
+
+   TODO
+
+Resources
+---------
+
+- https://github.com/varnish/libvmod-example
+- https://github.com/varnish/libvmod-rtstatus
+- http://blog.zenika.com/index.php?post/2012/08/21/Creating-a-Varnish-module
+- http://blog.zenika.com/index.php?post/2012/08/27/Introducing-varnishtest
