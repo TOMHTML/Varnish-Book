@@ -6154,14 +6154,39 @@ Appendix F: VMOD Development
    This appendix explains the concepts you should know to develop your own VMODs.
    The appendix takes you through the simplest VMOD possible: the `Hello, World` VMOD.
 
-Hello World
+VMOD Basics
 -----------
 
-- TODO
+- What is a VMOD
+- The Workspace Memory Model
+- ``varnishtest``
 
 .. container:: handout
 
-   TODO
+   .. What is a VMOD?
+
+   .. 
+
+The Workspace Memory Model
+..........................
+
+.. http://blog.zenika.com/index.php?post/2012/08/21/Creating-a-Varnish-module
+
+
+``varnishtest``
+...............
+
+.. http://blog.zenika.com/index.php?post/2012/08/27/Introducing-varnishtest
+
+Hello, World!
+-------------
+
+.. https://github.com/varnish/libvmod-example
+
+Cowsay: Hello, World!
+---------------------
+
+.. https://github.com/varnish/libvmod-rtstatus
 
 Resources
 ---------
@@ -6170,3 +6195,4 @@ Resources
 - https://github.com/varnish/libvmod-rtstatus
 - http://blog.zenika.com/index.php?post/2012/08/21/Creating-a-Varnish-module
 - http://blog.zenika.com/index.php?post/2012/08/27/Introducing-varnishtest
+- https://code.uplex.de/uplex-varnish/libvmod-example-reqbody/blobs/master/src/vmod_example_reqbody.c
